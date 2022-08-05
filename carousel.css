@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+.carousel > .slide {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.selector {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 1em;
+}
+
+.selector > li {
+        list-style-type: none;
+}
+
+/* Slides styling */
+#slide-1 {
+    background-color: aliceblue;
+}
+#slide-2 {
+    background-color: rgb(0, 136, 255);
+}
+#slide-3 {
+    background-color: rgb(0, 248, 215);
+}
+#slide-4 {
+    background-color: rgb(227, 218, 42);
+}
+#slide-5 {
+    background-color: rgb(143, 42, 183);
+}
+#slide-6 {
+    background-color: rgb(222, 35, 57);
+}
